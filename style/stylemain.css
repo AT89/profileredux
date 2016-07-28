@@ -1,0 +1,106 @@
+*{
+  margin:0;
+  padding:0;
+  border:0;
+  font-size:inherit;
+  font-weight:inherit;
+  font-family:inherit;
+  text-decoration:inherit;
+  line-height:inherit;
+  color:inherit;
+}
+html, body{
+ text-shadow: 1px 1px 0px #000000;
+ font-family: "Helvetica Neue", Helvetica, sans-serif;
+color:#ffffff;
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size:60px;
+    line-height:50px;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+h2{
+    font-size:20px;
+    line-height:50px;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 15px;
+}
+h3{
+    font-size:20px;
+    line-height:50px;
+    font-weight:bold;
+    text-align: center;
+
+}
+body {
+
+  margin: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("/assets/bg.jpg");
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: fill;
+}
+}
+nav {
+  width: 210px;
+  height: 210px;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  border: 2px solid #01cfa9;
+}
+nav ul li {
+  display: block;
+  list-style: none;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-top: 24px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+nav ul li a:hover {
+  color: #01cfa9;
+}
+nav ul li a:hover:after {
+  opacity: 1;
+  -ms-filter: none;
+  -webkit-filter: none;
+          filter: none;
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+}
+nav ul li a:after {
+  content: '';
+  width: 34px;
+  height: 5px;
+  background: #01cfa9;
+  display: block;
+  position: relative;
+  top: 5px;
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  -webkit-transform: translateX(100px);
+  transform: translateX(100px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover{
+  color: #33BBE8;
+}
